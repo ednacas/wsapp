@@ -4,7 +4,9 @@ $("#miformulario").submit(function(evento){
 	var cadena=$(this).serializeArray();
 	console.info(cadena);
 	$.ajax({
-		url:"http://localhost/prueba.php"
+		url:"http://especialistasenlaweb.com/elcdatos.php",
+		type:"post",
+		data:cadena
 	}).done(function(respuesta){
 		$(".mensaje").html(respuesta);
 	});

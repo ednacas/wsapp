@@ -1,12 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.fadpws" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>WebServiceFADP</name>
+    <name>AppAgendaFADP</name>
     <description>
-        A blank PhoneGap app.
+        Agenda APP para capturar los datos de las personas...
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="lorie_ka@hotmail.com.com" href="http://phonegap.com">
+        Edna Castaño
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="http://especialistasenlaweb.com" />
+
+    <plugin name="cordova-plugin-whitelist" source= "npm" />
+    <allow-navigatión href="*"/>
+    <allow-intent href="*" />
+
+
+
+
+
 </widget>
+
